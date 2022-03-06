@@ -26,10 +26,14 @@ The outline of this tutorial is following.
 3. Start the server with config file and play the game
 
 ## Installation
-Please install this library with pip.
+Please install this library with pip 2.
 
 ```bash
-pip install pypokergui
+sudo apt install virtualenv
+mkdir env
+virtualenv --python=$(which python2) .../Thesis/thesis/ui/PyPokerGUI/env/
+source env/bin/activate
+pip2 install pypokergui
 ```
 
 ## Create script to setup our AI
